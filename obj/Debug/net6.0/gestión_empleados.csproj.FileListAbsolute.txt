@@ -1,0 +1,15 @@
+/home/Juarika/Desktop/c#/gestión_empleados/bin/Debug/net6.0/gestión_empleados
+/home/Juarika/Desktop/c#/gestión_empleados/bin/Debug/net6.0/gestión_empleados.deps.json
+/home/Juarika/Desktop/c#/gestión_empleados/bin/Debug/net6.0/gestión_empleados.runtimeconfig.json
+/home/Juarika/Desktop/c#/gestión_empleados/bin/Debug/net6.0/gestión_empleados.dll
+/home/Juarika/Desktop/c#/gestión_empleados/bin/Debug/net6.0/gestión_empleados.pdb
+/home/Juarika/Desktop/c#/gestión_empleados/obj/Debug/net6.0/gestión_empleados.csproj.AssemblyReference.cache
+/home/Juarika/Desktop/c#/gestión_empleados/obj/Debug/net6.0/gestión_empleados.GeneratedMSBuildEditorConfig.editorconfig
+/home/Juarika/Desktop/c#/gestión_empleados/obj/Debug/net6.0/gestión_empleados.AssemblyInfoInputs.cache
+/home/Juarika/Desktop/c#/gestión_empleados/obj/Debug/net6.0/gestión_empleados.AssemblyInfo.cs
+/home/Juarika/Desktop/c#/gestión_empleados/obj/Debug/net6.0/gestión_empleados.csproj.CoreCompileInputs.cache
+/home/Juarika/Desktop/c#/gestión_empleados/obj/Debug/net6.0/gestión_empleados.dll
+/home/Juarika/Desktop/c#/gestión_empleados/obj/Debug/net6.0/refint/gestión_empleados.dll
+/home/Juarika/Desktop/c#/gestión_empleados/obj/Debug/net6.0/gestión_empleados.pdb
+/home/Juarika/Desktop/c#/gestión_empleados/obj/Debug/net6.0/gestión_empleados.genruntimeconfig.cache
+/home/Juarika/Desktop/c#/gestión_empleados/obj/Debug/net6.0/ref/gestión_empleados.dll

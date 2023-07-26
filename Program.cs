@@ -5,9 +5,7 @@ using System.Collections.Generic;
 
 class Program 
 {
-    static readonly Dictionary<long, Empleado> empleados = new();
-
-    public static Dictionary<long, Empleado> Empleados => empleados;
+    static Dictionary<long, Empleado> empleados = new();
 
     static void Main() {
         int opcion;
@@ -28,6 +26,7 @@ class Program
     }
 
     static void Menu() {
+        Console.Clear();
         Console.WriteLine("Menú de opciones:");
         Console.WriteLine("1. Agregar empleado");
         Console.WriteLine("2. Mostrar un empleado");
@@ -39,10 +38,33 @@ class Program
     }
 
     static void Agregar() {
+
         Console.WriteLine("Ingresa el nombre:");
-        Console.WriteLine("Ingresa la edad:");
-        Console.WriteLine("Ingresa el salario:");
-        Console.WriteLine("Ingresa el departamento");
-        Console.WriteLine("");
+        string? nombre = Console.ReadLine();
+
+        Console.WriteLine("Ingresa el numero de identificacion");
+        if (long.TryParse(Console.ReadLine(), out long id)) 
+        {    
+            Console.WriteLine("Ingresa la edad:");
+            if (int.TryParse(Console.ReadLine(), out int edad)) 
+            {
+                Console.WriteLine("Ingresa el salario:");
+                if (float.TryParse(Console.ReadLine(), out float salario))
+                {
+                    Console.WriteLine("Ingresa el departamento");
+                    string? departamento = Console.ReadLine();
+
+                    // Crear nuevo empleado
+                    var empleado = new Empleado(nombre: nombre, edad: edad, salario: salario, departamento: departamento, id: id);
+
+                    // Añadir al empleado en diccionario de empleados
+                    empleados.Add(key: id, value: empleado);
+
+                    Console.ForegroundColor = ConsoleColor.Green;
+                    Console.WriteLine("¡Empleado agregado con éxito!");
+                    Console.ResetColor();
+                } 
+            }
+        }
     }
 }
